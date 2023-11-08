@@ -1,6 +1,7 @@
 import React from "react";
 import './App.css';
 import ConditionalRenderingClass from './components/ConditionalRenderingClass';
+import ConditionalRenderingClassNested from './components/ConditionalRenderingClassNested';
 import ConditionalRenderingFunctional from './components/ConditionalRenderingFunctional';
 import EventsClass from './components/EventsClass';
 import EventsFunctional from './components/EventsFunctional';
@@ -14,6 +15,7 @@ function App() {
     return (
         <div className="App">
             <ConditionalRenderingClass />
+            <ConditionalRenderingClassNested />
             <ConditionalRenderingFunctional connected = {true}/>
             <EventsClass />
             <EventsFunctional />
